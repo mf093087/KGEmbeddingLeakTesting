@@ -471,8 +471,7 @@ def save_results(filename, results):
 # Main Scripts
 # -----------------------------------------------------------------------------
 if __name__ == "__main__":
-    dataset_path = "D:\\Users\\mofan\\PycharmProjects\\leaktesting\\AnKGE-main\\AnKGE-main\\dataset\\leakenhanced"
-
+    dataset_path = "./dataset"
     # Load the dataset
     train_triples, valid_triples, test_triples, num_entities, num_relations = load_dataset(dataset_path)
     training_sample = train_triples
