@@ -36,7 +36,7 @@ Installation
 
 Dataset Description
 
-- Original Dataset: Derived from the leak testing system's Neo4j database.
+- Original Dataset: Derived from the leak testing system and the corresponding Neo4j knowledge graph database.
 - Enhanced Dataset: Preprocessed and split into:
   - train_enhanced.txt (training)
   - valid_enhanced.txt (validation)
